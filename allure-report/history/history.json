@@ -1,0 +1,280 @@
+{
+  "a69c7db18ede72494cebc219ef54352f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "abdb8657abe638f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794236193,
+        "stop" : 1582794241382,
+        "duration" : 5189
+      }
+    }, {
+      "uid" : "19bac2bc16019099",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582793714476,
+        "stop" : 1582793720841,
+        "duration" : 6365
+      }
+    } ]
+  },
+  "d7ef7f84ce9b0073d8b049aa47c58c6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c6ede6bc349c48b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794222620,
+        "stop" : 1582794224535,
+        "duration" : 1915
+      }
+    }, {
+      "uid" : "feeadb88729aeaa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582793700780,
+        "stop" : 1582793702400,
+        "duration" : 1620
+      }
+    } ]
+  },
+  "670300047174fa75084936dd51c15246" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b412d5344098e417",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='login']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794228721.2.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794228721.2.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='login']\"}",
+      "time" : {
+        "start" : 1582794224557,
+        "stop" : 1582794229248,
+        "duration" : 4691
+      }
+    }, {
+      "uid" : "2440fd38eedda546",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='login']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793706483.2.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793706483.2.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='login']\"}",
+      "time" : {
+        "start" : 1582793702418,
+        "stop" : 1582793706984,
+        "duration" : 4566
+      }
+    } ]
+  },
+  "9009f8dd0750f1307423ea39ab873aad" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "57523e06e5705d05",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='login']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794200698.0.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794200698.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='login']\"}",
+      "time" : {
+        "start" : 1582794196528,
+        "stop" : 1582794201587,
+        "duration" : 5059
+      }
+    }, {
+      "uid" : "c6515f3474555d9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582793666375,
+        "stop" : 1582793680097,
+        "duration" : 13722
+      }
+    } ]
+  },
+  "dd46097ac137ea3ae25a4b096b29c22e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "45b06aff06d7f3ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794212271,
+        "stop" : 1582794216773,
+        "duration" : 4502
+      }
+    }, {
+      "uid" : "9d51d4e5a5a7d50c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582793690534,
+        "stop" : 1582793695027,
+        "duration" : 4493
+      }
+    } ]
+  },
+  "da0775d0baaed4991670251f252179c2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "cdd407bdb2b6b4ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794173536,
+        "stop" : 1582794194345,
+        "duration" : 20809
+      }
+    }, {
+      "uid" : "ab333eab792a9e72",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='logout']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793663449.0.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793663449.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='logout']\"}",
+      "time" : {
+        "start" : 1582793659376,
+        "stop" : 1582793664321,
+        "duration" : 4945
+      }
+    } ]
+  },
+  "ace8f8f1a3b5502b4f021f8295203a56" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1f2d4932f5ce4eca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794216791,
+        "stop" : 1582794220794,
+        "duration" : 4003
+      }
+    }, {
+      "uid" : "33f7b1c781bba42e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582793695047,
+        "stop" : 1582793699142,
+        "duration" : 4095
+      }
+    } ]
+  },
+  "ddc0bc46e19a543c558bb3ea4da7c7b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d3b605297bf3de23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794208380,
+        "stop" : 1582794212244,
+        "duration" : 3864
+      }
+    }, {
+      "uid" : "2e1ca5b6ea18de8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582793686434,
+        "stop" : 1582793690520,
+        "duration" : 4086
+      }
+    } ]
+  },
+  "1bc4447b99c7be0516dbb6f5f4582d9" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6e9b604fbc07e0c",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='alert alert-success']}\nExpected: text 'You have successfully subscribed to this newsletter'\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794235359.3.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794235359.3.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='alert alert-success']\"}",
+      "time" : {
+        "start" : 1582794229279,
+        "stop" : 1582794236156,
+        "duration" : 6877
+      }
+    }, {
+      "uid" : "33939d1d405f6e77",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='alert alert-success']}\nExpected: text 'You have successfully subscribed to this newsletter'\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793713659.3.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793713659.3.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='alert alert-success']\"}",
+      "time" : {
+        "start" : 1582793707017,
+        "stop" : 1582793714449,
+        "duration" : 7432
+      }
+    } ]
+  },
+  "f55d21cf4357341a8f41058962f57d83" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "57d75fea874bef22",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='login']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794205757.1.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794205757.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='login']\"}",
+      "time" : {
+        "start" : 1582794201617,
+        "stop" : 1582794206612,
+        "duration" : 4995
+      }
+    }, {
+      "uid" : "407164349d7ba534",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='login']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793684318.1.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793684318.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='login']\"}",
+      "time" : {
+        "start" : 1582793680116,
+        "stop" : 1582793684781,
+        "duration" : 4665
+      }
+    } ]
+  }
+}

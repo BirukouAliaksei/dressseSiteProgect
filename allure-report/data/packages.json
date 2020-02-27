@@ -1,0 +1,151 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "BuyGoodsTest",
+    "children" : [ {
+      "name" : "buyGoodsTest",
+      "uid" : "cdd407bdb2b6b4ea",
+      "parentUid" : "819ec97aabdca3ece0620ca99354592a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794173536,
+        "stop" : 1582794194345,
+        "duration" : 20809
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "819ec97aabdca3ece0620ca99354592a"
+  }, {
+    "name" : "DressAddTest",
+    "children" : [ {
+      "name" : "testProductInCart",
+      "uid" : "57523e06e5705d05",
+      "parentUid" : "86e51c9f2ad9bcd9b5852d6631652043",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582794196528,
+        "stop" : 1582794201587,
+        "duration" : 5059
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "createAndDeleteProduct",
+      "uid" : "57d75fea874bef22",
+      "parentUid" : "86e51c9f2ad9bcd9b5852d6631652043",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582794201617,
+        "stop" : 1582794206612,
+        "duration" : 4995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "86e51c9f2ad9bcd9b5852d6631652043"
+  }, {
+    "name" : "DressesPageTest",
+    "children" : [ {
+      "name" : "chooseEveninglDress",
+      "uid" : "d3b605297bf3de23",
+      "parentUid" : "e86b1fd407d6effa5cf3e38683f76db0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794208380,
+        "stop" : 1582794212244,
+        "duration" : 3864
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "chooseSummerDress",
+      "uid" : "45b06aff06d7f3ec",
+      "parentUid" : "e86b1fd407d6effa5cf3e38683f76db0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794212271,
+        "stop" : 1582794216773,
+        "duration" : 4502
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "chooseCasualDress",
+      "uid" : "1f2d4932f5ce4eca",
+      "parentUid" : "e86b1fd407d6effa5cf3e38683f76db0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794216791,
+        "stop" : 1582794220794,
+        "duration" : 4003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e86b1fd407d6effa5cf3e38683f76db0"
+  }, {
+    "name" : "MainPageTest",
+    "children" : [ {
+      "name" : "search",
+      "uid" : "c6ede6bc349c48b4",
+      "parentUid" : "07861cb88db0e1e176ece6b62d364207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794222620,
+        "stop" : 1582794224535,
+        "duration" : 1915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "sighInOnSite",
+      "uid" : "b412d5344098e417",
+      "parentUid" : "07861cb88db0e1e176ece6b62d364207",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582794224557,
+        "stop" : 1582794229248,
+        "duration" : 4691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "sentNewsletter",
+      "uid" : "6e9b604fbc07e0c",
+      "parentUid" : "07861cb88db0e1e176ece6b62d364207",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582794229279,
+        "stop" : 1582794236156,
+        "duration" : 6877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "contactUsTest",
+      "uid" : "abdb8657abe638f5",
+      "parentUid" : "07861cb88db0e1e176ece6b62d364207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582794236193,
+        "stop" : 1582794241382,
+        "duration" : 5189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "07861cb88db0e1e176ece6b62d364207"
+  } ]
+}

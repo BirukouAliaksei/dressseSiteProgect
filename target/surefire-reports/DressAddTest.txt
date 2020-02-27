@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: DressAddTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.094 s <<< FAILURE! - in DressAddTest
+testProductInCart  Time elapsed: 5.086 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //*[@class='login']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794200698.0.png
+Page source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794200698.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='login']"}
+	at DressAddTest.testProductInCart(DressAddTest.java:22)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='login']"}
+  (Session info: headless chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RIU7OQB', ip: '192.168.100.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Bruss\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c33faf9809e301a6d5bdc20908105e3
+*** Element info: {Using=xpath, value=//*[@class='login']}
+	at DressAddTest.testProductInCart(DressAddTest.java:22)
+
+createAndDeleteProduct  Time elapsed: 5.02 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //*[@class='login']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794205757.1.png
+Page source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794205757.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='login']"}
+	at DressAddTest.createAndDeleteProduct(DressAddTest.java:30)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='login']"}
+  (Session info: headless chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RIU7OQB', ip: '192.168.100.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Bruss\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c33faf9809e301a6d5bdc20908105e3
+*** Element info: {Using=xpath, value=//*[@class='login']}
+	at DressAddTest.createAndDeleteProduct(DressAddTest.java:30)
+

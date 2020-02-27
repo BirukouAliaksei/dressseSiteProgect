@@ -1,0 +1,851 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-RIU7OQB",
+    "children" : [ {
+      "name" : "19168@DESKTOP-RIU7OQB.main(1)",
+      "children" : [ {
+        "name" : "chooseSummerDress()",
+        "uid" : "9e33ea6e42dad6be",
+        "parentUid" : "6db21d03b11db4fad61601acc8f0a2e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793220852,
+          "stop" : 1582793224885,
+          "duration" : 4033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sighInOnSite()",
+        "uid" : "91222afa276ac373",
+        "parentUid" : "6db21d03b11db4fad61601acc8f0a2e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793231606,
+          "stop" : 1582793237576,
+          "duration" : 5970
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "contactUsTest()",
+        "uid" : "b9fd9019f3aea872",
+        "parentUid" : "6db21d03b11db4fad61601acc8f0a2e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793244990,
+          "stop" : 1582793251712,
+          "duration" : 6722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sentNewsletter()",
+        "uid" : "29cd36a481bc74e4",
+        "parentUid" : "6db21d03b11db4fad61601acc8f0a2e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582793237595,
+          "stop" : 1582793244942,
+          "duration" : 7347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "search()",
+        "uid" : "4c2a3dd38f836cf8",
+        "parentUid" : "6db21d03b11db4fad61601acc8f0a2e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793230001,
+          "stop" : 1582793231577,
+          "duration" : 1576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEveninglDress()",
+        "uid" : "b76da52b0ac58dce",
+        "parentUid" : "6db21d03b11db4fad61601acc8f0a2e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793217041,
+          "stop" : 1582793220598,
+          "duration" : 3557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseCasualDress()",
+        "uid" : "a0e7923411b134b5",
+        "parentUid" : "6db21d03b11db4fad61601acc8f0a2e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793224916,
+          "stop" : 1582793228685,
+          "duration" : 3769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6db21d03b11db4fad61601acc8f0a2e4"
+    }, {
+      "name" : "15288@DESKTOP-RIU7OQB.main(1)",
+      "children" : [ {
+        "name" : "sighInOnSite()",
+        "uid" : "d43074f2cc0c4b33",
+        "parentUid" : "ca08f698106b0747c9a7d7d22cce6929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582792768514,
+          "stop" : 1582792775902,
+          "duration" : 7388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "search()",
+        "uid" : "c6eddabd806eabd2",
+        "parentUid" : "ca08f698106b0747c9a7d7d22cce6929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582792766566,
+          "stop" : 1582792768485,
+          "duration" : 1919
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseSummerDress()",
+        "uid" : "1b79c9391677cc8",
+        "parentUid" : "ca08f698106b0747c9a7d7d22cce6929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582792755635,
+          "stop" : 1582792759983,
+          "duration" : 4348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "contactUsTest()",
+        "uid" : "b972aa2ac4c059b8",
+        "parentUid" : "ca08f698106b0747c9a7d7d22cce6929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582792783277,
+          "stop" : 1582792789278,
+          "duration" : 6001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseCasualDress()",
+        "uid" : "822ec6bbf8adb018",
+        "parentUid" : "ca08f698106b0747c9a7d7d22cce6929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582792760017,
+          "stop" : 1582792764474,
+          "duration" : 4457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEveninglDress()",
+        "uid" : "c5888282214d90fd",
+        "parentUid" : "ca08f698106b0747c9a7d7d22cce6929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582792750824,
+          "stop" : 1582792755358,
+          "duration" : 4534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sentNewsletter()",
+        "uid" : "4bd0fc949971f194",
+        "parentUid" : "ca08f698106b0747c9a7d7d22cce6929",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582792775933,
+          "stop" : 1582792783242,
+          "duration" : 7309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca08f698106b0747c9a7d7d22cce6929"
+    }, {
+      "name" : "1500@DESKTOP-RIU7OQB.main(1)",
+      "children" : [ {
+        "name" : "testProductInCart()",
+        "uid" : "57523e06e5705d05",
+        "parentUid" : "030a45653781363bb9343f8bc3fa9479",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582794196528,
+          "stop" : 1582794201587,
+          "duration" : 5059
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "buyGoodsTest()",
+        "uid" : "cdd407bdb2b6b4ea",
+        "parentUid" : "030a45653781363bb9343f8bc3fa9479",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582794173536,
+          "stop" : 1582794194345,
+          "duration" : 20809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sentNewsletter()",
+        "uid" : "6e9b604fbc07e0c",
+        "parentUid" : "030a45653781363bb9343f8bc3fa9479",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582794229279,
+          "stop" : 1582794236156,
+          "duration" : 6877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEveninglDress()",
+        "uid" : "d3b605297bf3de23",
+        "parentUid" : "030a45653781363bb9343f8bc3fa9479",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582794208380,
+          "stop" : 1582794212244,
+          "duration" : 3864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "search()",
+        "uid" : "c6ede6bc349c48b4",
+        "parentUid" : "030a45653781363bb9343f8bc3fa9479",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582794222620,
+          "stop" : 1582794224535,
+          "duration" : 1915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createAndDeleteProduct()",
+        "uid" : "57d75fea874bef22",
+        "parentUid" : "030a45653781363bb9343f8bc3fa9479",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582794201617,
+          "stop" : 1582794206612,
+          "duration" : 4995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "contactUsTest()",
+        "uid" : "abdb8657abe638f5",
+        "parentUid" : "030a45653781363bb9343f8bc3fa9479",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582794236193,
+          "stop" : 1582794241382,
+          "duration" : 5189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sighInOnSite()",
+        "uid" : "b412d5344098e417",
+        "parentUid" : "030a45653781363bb9343f8bc3fa9479",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582794224557,
+          "stop" : 1582794229248,
+          "duration" : 4691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseSummerDress()",
+        "uid" : "45b06aff06d7f3ec",
+        "parentUid" : "030a45653781363bb9343f8bc3fa9479",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582794212271,
+          "stop" : 1582794216773,
+          "duration" : 4502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseCasualDress()",
+        "uid" : "1f2d4932f5ce4eca",
+        "parentUid" : "030a45653781363bb9343f8bc3fa9479",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582794216791,
+          "stop" : 1582794220794,
+          "duration" : 4003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "030a45653781363bb9343f8bc3fa9479"
+    }, {
+      "name" : "5836@DESKTOP-RIU7OQB.main(1)",
+      "children" : [ {
+        "name" : "sentNewsletter()",
+        "uid" : "a08a8701d9bc3903",
+        "parentUid" : "ca496c6ed4d211e009ae14ed4cbf962a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582790312687,
+          "stop" : 1582790321261,
+          "duration" : 8574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sighInOnSite()",
+        "uid" : "19ec133c419b4bc5",
+        "parentUid" : "ca496c6ed4d211e009ae14ed4cbf962a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582790306450,
+          "stop" : 1582790312667,
+          "duration" : 6217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "search()",
+        "uid" : "4c5576c28b02f929",
+        "parentUid" : "ca496c6ed4d211e009ae14ed4cbf962a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582790304146,
+          "stop" : 1582790306427,
+          "duration" : 2281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEveninglDress()",
+        "uid" : "3d395dc9a2f4142b",
+        "parentUid" : "ca496c6ed4d211e009ae14ed4cbf962a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582790289497,
+          "stop" : 1582790293148,
+          "duration" : 3651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "contactUsTest()",
+        "uid" : "8f5160804a31f4f6",
+        "parentUid" : "ca496c6ed4d211e009ae14ed4cbf962a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582790321524,
+          "stop" : 1582790327684,
+          "duration" : 6160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseSummerDress()",
+        "uid" : "c70fd7f6bd84004f",
+        "parentUid" : "ca496c6ed4d211e009ae14ed4cbf962a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582790293336,
+          "stop" : 1582790297822,
+          "duration" : 4486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseCasualDress()",
+        "uid" : "14bd8f00032f3abd",
+        "parentUid" : "ca496c6ed4d211e009ae14ed4cbf962a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582790297850,
+          "stop" : 1582790301986,
+          "duration" : 4136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca496c6ed4d211e009ae14ed4cbf962a"
+    }, {
+      "name" : "6892@DESKTOP-RIU7OQB.main(1)",
+      "children" : [ {
+        "name" : "sighInOnSite()",
+        "uid" : "3fe98870bf1a75a7",
+        "parentUid" : "f048d03d26ef99cfffb4578913ad7f43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582793447798,
+          "stop" : 1582793452619,
+          "duration" : 4821
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createAndDeleteProduct()",
+        "uid" : "ce795cf2b5cb8e1f",
+        "parentUid" : "f048d03d26ef99cfffb4578913ad7f43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582793422240,
+          "stop" : 1582793427034,
+          "duration" : 4794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "search()",
+        "uid" : "fff871e5208ce8f8",
+        "parentUid" : "f048d03d26ef99cfffb4578913ad7f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793445328,
+          "stop" : 1582793447768,
+          "duration" : 2440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseCasualDress()",
+        "uid" : "add0bbd808fc91a3",
+        "parentUid" : "f048d03d26ef99cfffb4578913ad7f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793439246,
+          "stop" : 1582793443559,
+          "duration" : 4313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "buyGoodsTest()",
+        "uid" : "3369e64d32c2a4f3",
+        "parentUid" : "f048d03d26ef99cfffb4578913ad7f43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582793398609,
+          "stop" : 1582793404257,
+          "duration" : 5648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEveninglDress()",
+        "uid" : "b2d2021ec58ea94",
+        "parentUid" : "f048d03d26ef99cfffb4578913ad7f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793429808,
+          "stop" : 1582793434106,
+          "duration" : 4298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "contactUsTest()",
+        "uid" : "8c71a8fcc68ec8f3",
+        "parentUid" : "f048d03d26ef99cfffb4578913ad7f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793460206,
+          "stop" : 1582793466254,
+          "duration" : 6048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testProductInCart()",
+        "uid" : "2a4aa77d08f99857",
+        "parentUid" : "f048d03d26ef99cfffb4578913ad7f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793406196,
+          "stop" : 1582793422207,
+          "duration" : 16011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseSummerDress()",
+        "uid" : "6c6f7b9549a2c263",
+        "parentUid" : "f048d03d26ef99cfffb4578913ad7f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793434128,
+          "stop" : 1582793439221,
+          "duration" : 5093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sentNewsletter()",
+        "uid" : "94b3d22a2b37c3e9",
+        "parentUid" : "f048d03d26ef99cfffb4578913ad7f43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582793452644,
+          "stop" : 1582793460164,
+          "duration" : 7520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f048d03d26ef99cfffb4578913ad7f43"
+    }, {
+      "name" : "18636@DESKTOP-RIU7OQB.main(1)",
+      "children" : [ {
+        "name" : "sentNewsletter()",
+        "uid" : "3f2b6f41433966ed",
+        "parentUid" : "e16249fc88678d7226301bd8c5ae1677",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582793707017,
+          "stop" : 1582793714449,
+          "duration" : 7432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testProductInCart()",
+        "uid" : "85c13a8d6874cf6d",
+        "parentUid" : "e16249fc88678d7226301bd8c5ae1677",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793666375,
+          "stop" : 1582793680097,
+          "duration" : 13722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createAndDeleteProduct()",
+        "uid" : "1262c19947044fdf",
+        "parentUid" : "e16249fc88678d7226301bd8c5ae1677",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582793680116,
+          "stop" : 1582793684781,
+          "duration" : 4665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "contactUsTest()",
+        "uid" : "b4f63573508b609c",
+        "parentUid" : "e16249fc88678d7226301bd8c5ae1677",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793714476,
+          "stop" : 1582793720841,
+          "duration" : 6365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseCasualDress()",
+        "uid" : "bf3d32ec06bbf493",
+        "parentUid" : "e16249fc88678d7226301bd8c5ae1677",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793695047,
+          "stop" : 1582793699142,
+          "duration" : 4095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseSummerDress()",
+        "uid" : "e3bdfff12e8aaebb",
+        "parentUid" : "e16249fc88678d7226301bd8c5ae1677",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793690534,
+          "stop" : 1582793695027,
+          "duration" : 4493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEveninglDress()",
+        "uid" : "873d06ea7cb95877",
+        "parentUid" : "e16249fc88678d7226301bd8c5ae1677",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793686434,
+          "stop" : 1582793690520,
+          "duration" : 4086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "buyGoodsTest()",
+        "uid" : "b897cfa935534b9e",
+        "parentUid" : "e16249fc88678d7226301bd8c5ae1677",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582793659376,
+          "stop" : 1582793664321,
+          "duration" : 4945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "search()",
+        "uid" : "1b460077707398a8",
+        "parentUid" : "e16249fc88678d7226301bd8c5ae1677",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793700780,
+          "stop" : 1582793702400,
+          "duration" : 1620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sighInOnSite()",
+        "uid" : "50119b2733cf00fa",
+        "parentUid" : "e16249fc88678d7226301bd8c5ae1677",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582793702418,
+          "stop" : 1582793706984,
+          "duration" : 4566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e16249fc88678d7226301bd8c5ae1677"
+    }, {
+      "name" : "2212@DESKTOP-RIU7OQB.main(1)",
+      "children" : [ {
+        "name" : "chooseCasualDress()",
+        "uid" : "378710aa5a5f1534",
+        "parentUid" : "b635db8bd1e7ec426829b8bdef208156",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582791940096,
+          "stop" : 1582791944974,
+          "duration" : 4878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseSummerDress()",
+        "uid" : "178179a3e8296495",
+        "parentUid" : "b635db8bd1e7ec426829b8bdef208156",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582791935562,
+          "stop" : 1582791940059,
+          "duration" : 4497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEveninglDress()",
+        "uid" : "443413acb5280503",
+        "parentUid" : "b635db8bd1e7ec426829b8bdef208156",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582791930551,
+          "stop" : 1582791935376,
+          "duration" : 4825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b635db8bd1e7ec426829b8bdef208156"
+    }, {
+      "name" : "18564@DESKTOP-RIU7OQB.main(1)",
+      "children" : [ {
+        "name" : "contactUsTest()",
+        "uid" : "674f40bf3a65e15d",
+        "parentUid" : "3cb94c9dee1044d01230e5adcea61b40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582789899625,
+          "stop" : 1582789905359,
+          "duration" : 5734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEveninglDress()",
+        "uid" : "2ba929de18fe14c1",
+        "parentUid" : "3cb94c9dee1044d01230e5adcea61b40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582789870786,
+          "stop" : 1582789874139,
+          "duration" : 3353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseSummerDress()",
+        "uid" : "ab48afa26695a724",
+        "parentUid" : "3cb94c9dee1044d01230e5adcea61b40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582789874290,
+          "stop" : 1582789878424,
+          "duration" : 4134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseCasualDress()",
+        "uid" : "d0ace21e24ff9e78",
+        "parentUid" : "3cb94c9dee1044d01230e5adcea61b40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582789878451,
+          "stop" : 1582789883113,
+          "duration" : 4662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sighInOnSite()",
+        "uid" : "67ed0784c79ddc7d",
+        "parentUid" : "3cb94c9dee1044d01230e5adcea61b40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582789886931,
+          "stop" : 1582789892524,
+          "duration" : 5593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "search()",
+        "uid" : "cb9d6f43fcf8abbe",
+        "parentUid" : "3cb94c9dee1044d01230e5adcea61b40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582789885021,
+          "stop" : 1582789886904,
+          "duration" : 1883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sentNewsletter()",
+        "uid" : "9e754ff732972a92",
+        "parentUid" : "3cb94c9dee1044d01230e5adcea61b40",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582789892544,
+          "stop" : 1582789899586,
+          "duration" : 7042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cb94c9dee1044d01230e5adcea61b40"
+    }, {
+      "name" : "10828@DESKTOP-RIU7OQB.main(1)",
+      "children" : [ {
+        "name" : "buyGoodsTest()",
+        "uid" : "3c9daffc2a39650c",
+        "parentUid" : "fae6d5fb483b36c4e4f74cb3668d3be7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582793940603,
+          "stop" : 1582793945754,
+          "duration" : 5151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fae6d5fb483b36c4e4f74cb3668d3be7"
+    } ],
+    "uid" : "5c6b72171ebf87d32b9eb75f8f480eb6"
+  } ]
+}

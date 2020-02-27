@@ -1,0 +1,1 @@
+{"uuid":"e985dff9-8ca1-4979-8564-8bba8b1eb0a3","name":"sighInOnSite()","children":["79548b73-dc40-4f5c-9916-baff0dd421d8"],"befores":[{"name":"preCondition","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1582793702419,"stop":1582793702419}],"afters":[],"links":[],"start":1582793702416,"stop":1582793706995}

@@ -1,0 +1,1 @@
+{"uuid":"aa99678c-848b-43ea-b156-f515151bd4dc","name":"sentNewsletter()","children":["80b6de15-1787-49f6-99b0-d7503208368a"],"befores":[{"name":"preCondition","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1582790312688,"stop":1582790312688}],"afters":[],"links":[],"start":1582790312684,"stop":1582790321461}

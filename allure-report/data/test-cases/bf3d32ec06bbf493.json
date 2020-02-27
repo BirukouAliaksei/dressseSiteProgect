@@ -1,0 +1,85 @@
+{
+  "uid" : "bf3d32ec06bbf493",
+  "name" : "chooseCasualDress()",
+  "fullName" : "DressesPageTest.chooseCasualDress",
+  "historyId" : "ace8f8f1a3b5502b4f021f8295203a56",
+  "time" : {
+    "start" : 1582793695047,
+    "stop" : 1582793699142,
+    "duration" : 4095
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1582793684814,
+      "stop" : 1582793686431,
+      "duration" : 1617
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "preCondition",
+    "time" : {
+      "start" : 1582793695048,
+      "stop" : 1582793695048,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "18636@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "DressesPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "DressesPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "chooseCasualDress"
+  }, {
+    "name" : "suite",
+    "value" : "DressesPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf3d32ec06bbf493.json",
+  "parameterValues" : [ ]
+}

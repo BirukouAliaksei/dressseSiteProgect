@@ -1,0 +1,1 @@
+{"uuid":"21c051e3-d5a8-4954-82ff-3bd2a9d61ee5","name":"createAndDeleteProduct()","children":["21077fe0-4f44-4f2e-953c-7f1eda21ba6a"],"befores":[{"name":"preCondition","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1582793422241,"stop":1582793422242}],"afters":[],"links":[],"start":1582793422237,"stop":1582793427048}

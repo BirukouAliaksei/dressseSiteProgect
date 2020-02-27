@@ -1,0 +1,162 @@
+{
+  "uid" : "1f2d4932f5ce4eca",
+  "name" : "chooseCasualDress()",
+  "fullName" : "DressesPageTest.chooseCasualDress",
+  "historyId" : "ace8f8f1a3b5502b4f021f8295203a56",
+  "time" : {
+    "start" : 1582794216791,
+    "stop" : 1582794220794,
+    "duration" : 4003
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "preCondition",
+    "time" : {
+      "start" : 1582794216792,
+      "stop" : 1582794216792,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1582794206646,
+      "stop" : 1582794208377,
+      "duration" : 1731
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "1500@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "DressesPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "DressesPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "chooseCasualDress"
+  }, {
+    "name" : "suite",
+    "value" : "DressesPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bf3d32ec06bbf493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582793695047,
+        "stop" : 1582793699142,
+        "duration" : 4095
+      }
+    }, {
+      "uid" : "add0bbd808fc91a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582793439246,
+        "stop" : 1582793443559,
+        "duration" : 4313
+      }
+    }, {
+      "uid" : "a0e7923411b134b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582793224916,
+        "stop" : 1582793228685,
+        "duration" : 3769
+      }
+    }, {
+      "uid" : "822ec6bbf8adb018",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582792760017,
+        "stop" : 1582792764474,
+        "duration" : 4457
+      }
+    }, {
+      "uid" : "378710aa5a5f1534",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582791940096,
+        "stop" : 1582791944974,
+        "duration" : 4878
+      }
+    }, {
+      "uid" : "14bd8f00032f3abd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582790297850,
+        "stop" : 1582790301986,
+        "duration" : 4136
+      }
+    }, {
+      "uid" : "d0ace21e24ff9e78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582789878451,
+        "stop" : 1582789883113,
+        "duration" : 4662
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "33f7b1c781bba42e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582793695047,
+          "stop" : 1582793699142,
+          "duration" : 4095
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1f2d4932f5ce4eca.json",
+  "parameterValues" : [ ]
+}

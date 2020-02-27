@@ -1,0 +1,1 @@
+{"uuid":"ad284c01-7391-4e5a-82f6-6b528d6c426c","name":"BuyGoodsTest","children":["f8a224c1-4ca8-412b-8d68-cc7c7c3b094b"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1582794159149,"stop":1582794173497}],"afters":[],"links":[],"start":1582794159101,"stop":1582794194484}

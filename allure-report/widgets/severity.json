@@ -1,0 +1,101 @@
+[ {
+  "uid" : "6e9b604fbc07e0c",
+  "name" : "sentNewsletter()",
+  "time" : {
+    "start" : 1582794229279,
+    "stop" : 1582794236156,
+    "duration" : 6877
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3b605297bf3de23",
+  "name" : "chooseEveninglDress()",
+  "time" : {
+    "start" : 1582794208380,
+    "stop" : 1582794212244,
+    "duration" : 3864
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abdb8657abe638f5",
+  "name" : "contactUsTest()",
+  "time" : {
+    "start" : 1582794236193,
+    "stop" : 1582794241382,
+    "duration" : 5189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b412d5344098e417",
+  "name" : "sighInOnSite()",
+  "time" : {
+    "start" : 1582794224557,
+    "stop" : 1582794229248,
+    "duration" : 4691
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f2d4932f5ce4eca",
+  "name" : "chooseCasualDress()",
+  "time" : {
+    "start" : 1582794216791,
+    "stop" : 1582794220794,
+    "duration" : 4003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45b06aff06d7f3ec",
+  "name" : "chooseSummerDress()",
+  "time" : {
+    "start" : 1582794212271,
+    "stop" : 1582794216773,
+    "duration" : 4502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57d75fea874bef22",
+  "name" : "createAndDeleteProduct()",
+  "time" : {
+    "start" : 1582794201617,
+    "stop" : 1582794206612,
+    "duration" : 4995
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdd407bdb2b6b4ea",
+  "name" : "buyGoodsTest()",
+  "time" : {
+    "start" : 1582794173536,
+    "stop" : 1582794194345,
+    "duration" : 20809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6ede6bc349c48b4",
+  "name" : "search()",
+  "time" : {
+    "start" : 1582794222620,
+    "stop" : 1582794224535,
+    "duration" : 1915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57523e06e5705d05",
+  "name" : "testProductInCart()",
+  "time" : {
+    "start" : 1582794196528,
+    "stop" : 1582794201587,
+    "duration" : 5059
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

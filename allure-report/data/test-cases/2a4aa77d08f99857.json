@@ -1,0 +1,85 @@
+{
+  "uid" : "2a4aa77d08f99857",
+  "name" : "testProductInCart()",
+  "fullName" : "DressAddTest.testProductInCart",
+  "historyId" : "9009f8dd0750f1307423ea39ab873aad",
+  "time" : {
+    "start" : 1582793406196,
+    "stop" : 1582793422207,
+    "duration" : 16011
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1582793404536,
+      "stop" : 1582793406191,
+      "duration" : 1655
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "preCondition",
+    "time" : {
+      "start" : 1582793406197,
+      "stop" : 1582793406197,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "6892@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "DressAddTest"
+  }, {
+    "name" : "testClass",
+    "value" : "DressAddTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testProductInCart"
+  }, {
+    "name" : "suite",
+    "value" : "DressAddTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a4aa77d08f99857.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "cdd407bdb2b6b4ea",
+  "name" : "buyGoodsTest()",
+  "fullName" : "BuyGoodsTest.buyGoodsTest",
+  "historyId" : "da0775d0baaed4991670251f252179c2",
+  "time" : {
+    "start" : 1582794173536,
+    "stop" : 1582794194345,
+    "duration" : 20809
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1582794159149,
+      "stop" : 1582794173497,
+      "duration" : 14348
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "preCondition",
+    "time" : {
+      "start" : 1582794173542,
+      "stop" : 1582794173593,
+      "duration" : 51
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "1500@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "BuyGoodsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "BuyGoodsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "buyGoodsTest"
+  }, {
+    "name" : "suite",
+    "value" : "BuyGoodsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3c9daffc2a39650c",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='logout']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793944770.0.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793944770.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='logout']\"}",
+      "time" : {
+        "start" : 1582793940603,
+        "stop" : 1582793945754,
+        "duration" : 5151
+      }
+    }, {
+      "uid" : "b897cfa935534b9e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='logout']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793663449.0.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793663449.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='logout']\"}",
+      "time" : {
+        "start" : 1582793659376,
+        "stop" : 1582793664321,
+        "duration" : 4945
+      }
+    }, {
+      "uid" : "3369e64d32c2a4f3",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@class='logout']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793402793.0.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793402793.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='logout']\"}",
+      "time" : {
+        "start" : 1582793398609,
+        "stop" : 1582793404257,
+        "duration" : 5648
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ab333eab792a9e72",
+        "status" : "failed",
+        "statusDetails" : "Element not found {By.xpath: //*[@class='logout']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793663449.0.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582793663449.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='logout']\"}",
+        "time" : {
+          "start" : 1582793659376,
+          "stop" : 1582793664321,
+          "duration" : 4945
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cdd407bdb2b6b4ea.json",
+  "parameterValues" : [ ]
+}

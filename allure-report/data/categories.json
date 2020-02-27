@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {By.xpath: //*[@class='login']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794200698.0.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794200698.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='login']\"}",
+      "children" : [ {
+        "name" : "testProductInCart()",
+        "uid" : "57523e06e5705d05",
+        "parentUid" : "2f62d641fcb159e1e42ef016fee99bfe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582794196528,
+          "stop" : 1582794201587,
+          "duration" : 5059
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f62d641fcb159e1e42ef016fee99bfe"
+    }, {
+      "name" : "Element not found {By.xpath: //*[@class='login']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794205757.1.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794205757.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='login']\"}",
+      "children" : [ {
+        "name" : "createAndDeleteProduct()",
+        "uid" : "57d75fea874bef22",
+        "parentUid" : "14c7a9835dc9a2a31e31d5fd2dccc11b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582794201617,
+          "stop" : 1582794206612,
+          "duration" : 4995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14c7a9835dc9a2a31e31d5fd2dccc11b"
+    }, {
+      "name" : "Element not found {By.xpath: //*[@class='login']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794228721.2.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794228721.2.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='login']\"}",
+      "children" : [ {
+        "name" : "sighInOnSite()",
+        "uid" : "b412d5344098e417",
+        "parentUid" : "00c2f54ede1fd7bab1cbb01ace8f6f72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582794224557,
+          "stop" : 1582794229248,
+          "duration" : 4691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00c2f54ede1fd7bab1cbb01ace8f6f72"
+    }, {
+      "name" : "Element not found {By.xpath: //*[@class='alert alert-success']}\nExpected: text 'You have successfully subscribed to this newsletter'\nScreenshot: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794235359.3.png\nPage source: file:/C:/projects/dressseSiteProgect/build/reports/tests/1582794235359.3.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='alert alert-success']\"}",
+      "children" : [ {
+        "name" : "sentNewsletter()",
+        "uid" : "6e9b604fbc07e0c",
+        "parentUid" : "ff6b03a1699cb864da1e93bf400d70a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582794229279,
+          "stop" : 1582794236156,
+          "duration" : 6877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff6b03a1699cb864da1e93bf400d70a9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

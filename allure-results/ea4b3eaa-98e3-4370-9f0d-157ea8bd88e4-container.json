@@ -1,0 +1,1 @@
+{"uuid":"ea4b3eaa-98e3-4370-9f0d-157ea8bd88e4","name":"chooseCasualDress()","children":["45033140-9469-4492-b287-9ead237d319f"],"befores":[{"name":"preCondition","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1582793439247,"stop":1582793439247}],"afters":[],"links":[],"start":1582793439242,"stop":1582793443568}

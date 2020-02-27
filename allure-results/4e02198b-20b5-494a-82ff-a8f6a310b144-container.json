@@ -1,0 +1,1 @@
+{"uuid":"4e02198b-20b5-494a-82ff-a8f6a310b144","name":"chooseSummerDress()","children":["781d7f10-2b81-4254-8643-ef6164dfb978"],"befores":[{"name":"preCondition","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1582790293337,"stop":1582790293337}],"afters":[],"links":[],"start":1582790293333,"stop":1582790297836}

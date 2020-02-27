@@ -1,0 +1,1 @@
+{"uuid":"a7f05396-0fbf-4b82-b614-7d04d99cf138","name":"chooseEveninglDress()","children":["d15e7c47-31d5-4889-ae32-5a3eb04447c0"],"befores":[{"name":"preCondition","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1582789870795,"stop":1582789870796}],"afters":[],"links":[],"start":1582789870740,"stop":1582789874269}
