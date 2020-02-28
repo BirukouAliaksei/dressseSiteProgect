@@ -22,6 +22,7 @@ public class BuyGoodsTest extends Fixture{
         productPage.aderessField();
         productPage.selectShipping();
         productPage.orderConfirmation();
-        $(byXpath("//*[@class='cheque-indent']")).shouldHave(Condition.text("Your order on My Store is complete."));
+        $(byXpath("//*[@class='cheque-indent']"))
+                .shouldHave(Condition.text("Your order on My Store is complete."));
     }
 }

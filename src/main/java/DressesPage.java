@@ -30,10 +30,6 @@ public class DressesPage {
         return this;
     }
 
-    public DressesPage addToCard(String value){
-        $(value).click();
-        return this;
-    }
 
 
 }

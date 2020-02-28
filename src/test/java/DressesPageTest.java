@@ -19,18 +19,21 @@ public class DressesPageTest extends Fixture{
     @Test
     public void chooseCasualDress() {
        dressesPage.selectCasualDress();
-       $(byXpath("//*[@class='cat-name']")).shouldHave(Condition.text("Casual Dresses"));
+       $(byXpath("//*[@class='cat-name']"))
+               .shouldHave(Condition.text("Casual Dresses"));
     }
 
     @Test
     public void  chooseEveninglDress() {
         dressesPage.selectEveninglDress();
-        $(byXpath("//*[@class='cat-name']")).shouldHave(Condition.text("Evening Dresses"));
+        $(byXpath("//*[@class='cat-name']"))
+                .shouldHave(Condition.text("Evening Dresses"));
     }
 
     @Test
     public void  chooseSummerDress() {
        dressesPage.selectSummerDress();
-        $(byXpath("//*[@class='cat-name']")).shouldHave(Condition.text("Summer Dresses"));
+        $(byXpath("//*[@class='cat-name']"))
+                .shouldHave(Condition.text("Summer Dresses"));
     }
 }

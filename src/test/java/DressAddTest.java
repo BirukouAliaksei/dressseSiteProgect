@@ -23,6 +23,8 @@ public class DressAddTest extends Fixture{
         mainPage.addToCart();
         productPage.plusQtc();
         productPage.minusQtc();
+        $(byId("summary_products_quantity"))
+                .shouldHave(Condition.text("1 Product"));
     }
 
     @Test
@@ -30,6 +32,8 @@ public class DressAddTest extends Fixture{
         mainPage.sighIn();
         mainPage.addToCart();
         productPage.removeProduct();
+        $(byXpath("//*[@class='alert alert-warning']"))
+                .shouldHave(Condition.text("Your shopping cart is empty."));
     }
 
 }

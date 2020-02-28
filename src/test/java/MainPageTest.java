@@ -1,5 +1,6 @@
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -15,6 +16,7 @@ public class MainPageTest extends Fixture {
         mainPage = new MainPage();
     }
 
+    @Ignore
     @Test
     public void sighInOnSite(){
         mainPage.sighIn();
@@ -23,7 +25,8 @@ public class MainPageTest extends Fixture {
     @Test
     public void search(){
         mainPage.searchForm("Dresses");
-        $("h1.page-heading.product-listing").shouldHave(Condition.text("Dresses"));
+        $("h1.page-heading.product-listing")
+                .shouldHave(Condition.text("Dresses"));
     }
 
     @Test
@@ -36,7 +39,8 @@ public class MainPageTest extends Fixture {
     @Test
     public void contactUsTest(){
         mainPage.contactUs("asdddd@gadf.com", "smt message");
-        $(byXpath("//*[@class='alert alert-success']")).shouldHave(Condition.text("Your message has been successfully sent to our team."));
+        $(byXpath("//*[@class='alert alert-success']"))
+                .shouldHave(Condition.text("Your message has been successfully sent to our team."));
     }
 
 }

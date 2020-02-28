@@ -31,19 +31,16 @@ public class ProductPage {
 
     public ProductPage minusQtc(){
         $(byXpath("//*[@class='cart_quantity text-center']//*[@class='icon-minus']")).click();
-//        $(byId("summary_products_quantity")).shouldHave(Condition.text("1 Product"));
         return this;
     }
 
     public ProductPage plusQtc(){
         $(byXpath("//*[@class='cart_quantity text-center']//*[@class='icon-plus']")).click();
-//        $(byId("summary_products_quantity")).shouldHave(Condition.text("2 Products"));
         return this;
     }
 
     public ProductPage removeProduct(){
         $(byXpath("//*[@title='Delete']")).click();
-        $(byXpath("//*[@class='alert alert-warning']")).shouldHave(Condition.text("Your shopping cart is empty."));
         return this;
     }
 }
