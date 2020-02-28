@@ -11,7 +11,7 @@ public class Fixture {
     @BeforeAll
     public static void setUp(){
         Configuration.headless = true;
-        Configuration.remote = "http://localhost:4040/wd/hub";
+        Configuration.remote = "http://localhost:4444/wd/hub";
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
         DesiredCapabilities capabilities = new DesiredCapabilities();
