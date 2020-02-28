@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: MainPageTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.983 s <<< FAILURE! - in MainPageTest
-MainPageTest  Time elapsed: 20.983 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RIU7OQB', ip: '192.168.100.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
-selenide.remote: http://10.0.75.1:4444/wd/hub
-Driver info: driver.version: SelenideDriver
-selenide.url: http://automationpractice.com/index.php
-selenide.baseUrl: http://localhost:8080
-Caused by: java.net.ConnectException: Failed to connect to /10.0.75.1:4444
-Caused by: java.net.ConnectException: Connection timed out: connect
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.974 s - in MainPageTest

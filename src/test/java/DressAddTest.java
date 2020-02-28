@@ -19,7 +19,7 @@ public class DressAddTest extends Fixture{
 
     @Test
     public void testProductInCart(){
-        mainPage.sighIn();
+//        mainPage.sighIn();
         mainPage.addToCart();
         productPage.plusQtc();
         productPage.minusQtc();
@@ -29,7 +29,7 @@ public class DressAddTest extends Fixture{
 
     @Test
     public void createAndDeleteProduct(){
-        mainPage.sighIn();
+//        mainPage.sighIn();
         mainPage.addToCart();
         productPage.removeProduct();
         $(byXpath("//*[@class='alert alert-warning']"))

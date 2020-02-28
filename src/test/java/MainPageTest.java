@@ -16,11 +16,6 @@ public class MainPageTest extends Fixture {
         mainPage = new MainPage();
     }
 
-    @Ignore
-    @Test
-    public void sighInOnSite(){
-        mainPage.sighIn();
-    }
 
     @Test
     public void search(){
@@ -29,12 +24,12 @@ public class MainPageTest extends Fixture {
                 .shouldHave(Condition.text("Dresses"));
     }
 
-    @Test
-    public void sentNewsletter(){
-       mainPage.newsletter("aleeksss@gmail.com");
-       $(byXpath("//*[@class='alert alert-success']"))
-               .shouldHave(Condition.text("You have successfully subscribed to this newsletter"));
-    }
+//    @Test
+//    public void sentNewsletter(){
+//       mainPage.newsletter("aleekfs3333dddss@gmail.com");
+//       $(byXpath("//*[@class='alert alert-success']"))
+//               .shouldHave(Condition.text("You have successfully subscribed to this newsletter"));
+//    }
 
     @Test
     public void contactUsTest(){
