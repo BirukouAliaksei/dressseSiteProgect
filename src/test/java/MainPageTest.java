@@ -1,5 +1,6 @@
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
+import io.qameta.allure.Description;
 import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -16,7 +17,7 @@ public class MainPageTest extends Fixture {
         mainPage = new MainPage();
     }
 
-
+    @Description(value = "Search input text in search field")
     @Test
     public void search(){
         mainPage.searchForm("Dresses");
@@ -24,13 +25,15 @@ public class MainPageTest extends Fixture {
                 .shouldHave(Condition.text("Dresses"));
     }
 
-//    @Test
-//    public void sentNewsletter(){
-//       mainPage.newsletter("aleekfs3333dddss@gmail.com");
-//       $(byXpath("//*[@class='alert alert-success']"))
-//               .shouldHave(Condition.text("You have successfully subscribed to this newsletter"));
-//    }
+    @Description(value = "Create random email and send")
+    @Test
+    public void sentNewsletter(){
+       mainPage.newsletter(mainPage.getSaltString()+"@gmail.com");
+       $(byXpath("//*[@class='alert alert-success']"))
+               .shouldHave(Condition.text("You have successfully subscribed to this newsletter"));
+    }
 
+    @Description(value = "Fills out the form")
     @Test
     public void contactUsTest(){
         mainPage.contactUs("asdddd@gadf.com", "smt message");

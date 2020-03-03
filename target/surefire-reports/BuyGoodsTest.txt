@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: BuyGoodsTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.59 s - in BuyGoodsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.985 s - in BuyGoodsTest

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: MainPageTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.974 s - in MainPageTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.596 s - in MainPageTest
