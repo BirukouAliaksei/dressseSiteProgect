@@ -23,6 +23,8 @@ public class DressAddTest extends Fixture{
     public void testProductInCart(){
         mainPage.addToCart();
         productPage.plusQtc();
+        $(byId("summary_products_quantity"))
+                .shouldHave(Condition.text("2 Product"));
         productPage.minusQtc();
         $(byId("summary_products_quantity"))
                 .shouldHave(Condition.text("1 Product"));
