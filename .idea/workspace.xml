@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e6fce5-4e6e-457d-96f5-b971cc91bbc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/junit-platform.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DressesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DressesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DressAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DressAddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DressesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DressesPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Fixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fixture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DressesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DressesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/BuyGoodsTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/DressAddTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/DressesPageTest.txt" beforeDir="false" />
@@ -14,6 +22,8 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DressAddTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DressesPageTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MainPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DressAddTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DressAddTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DressesPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DressesPageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Fixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Fixture.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainPageTest.class" afterDir="false" />
     </list>
@@ -30,13 +40,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DressAddTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <state relative-caret-position="51">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DressesPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-43">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,21 +81,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+            <state relative-caret-position="-646">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1360#1361#0" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BuyGoodsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+            <state relative-caret-position="164">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,11 +118,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Fixture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="204">
+              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/junit-platform.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -80,20 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProductPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DressesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,15 +182,17 @@
         <option value="$PROJECT_DIR$/src/test/java/BuyGoods.java" />
         <option value="$PROJECT_DIR$/src/test/java/DressAdd.java" />
         <option value="$PROJECT_DIR$/dressseSiteProgect.iml" />
-        <option value="$PROJECT_DIR$/src/main/java/DressesPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BuyGoodsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DressesPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProductPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DressAddTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Fixture.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DressesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DressAddTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BuyGoodsTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/DressesPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/junit-platform.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/Fixture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPage.java" />
       </list>
     </option>
   </component>
@@ -149,7 +209,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,6 +238,13 @@
               <item name="dressseSiteProgect" type="b2602c69:ProjectViewProjectNode" />
               <item name="dressseSiteProgect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dressseSiteProgect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dressseSiteProgect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,6 +258,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,6 +267,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/allure-results" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -225,20 +295,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageTest.sentNewsletter">
-    <configuration name="All in dressseSiteProgect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dressseSiteProgect" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BuyGoodsTest">
     <configuration name="BuyGoodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dressseSiteProgect" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BuyGoodsTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyGoodsTest.buyGoodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dressseSiteProgect" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BuyGoodsTest" />
+      <option name="METHOD_NAME" value="buyGoodsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,8 +378,8 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.All in dressseSiteProgect" />
       <item itemvalue="JUnit.BuyGoodsTest" />
+      <item itemvalue="JUnit.BuyGoodsTest.buyGoodsTest" />
       <item itemvalue="JUnit.DressAddTest" />
       <item itemvalue="JUnit.DressesPageTest" />
       <item itemvalue="JUnit.MainPageTest.sentNewsletter" />
@@ -315,11 +387,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainPageTest.sentNewsletter" />
-        <item itemvalue="JUnit.DressAddTest" />
         <item itemvalue="JUnit.BuyGoodsTest" />
         <item itemvalue="JUnit.DressesPageTest" />
-        <item itemvalue="JUnit.All in dressseSiteProgect" />
+        <item itemvalue="JUnit.BuyGoodsTest.buyGoodsTest" />
+        <item itemvalue="JUnit.MainPageTest.sentNewsletter" />
+        <item itemvalue="JUnit.DressAddTest" />
       </list>
     </recent_temporary>
   </component>
@@ -337,42 +409,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_dressseSiteProgect - 2020.02.27 at 09h 36m 06s.xml">
-      <configuration name="All in dressseSiteProgect" configurationId="JUnit" />
+    <history-entry file="BuyGoodsTest_buyGoodsTest - 2020.03.04 at 19h 32m 19s.xml">
+      <configuration name="BuyGoodsTest.buyGoodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_dressseSiteProgect - 2020.02.27 at 09h 45m 38s.xml">
-      <configuration name="All in dressseSiteProgect" configurationId="JUnit" />
+    <history-entry file="BuyGoodsTest_buyGoodsTest - 2020.03.04 at 19h 33m 23s.xml">
+      <configuration name="BuyGoodsTest.buyGoodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuyGoods - 2020.02.27 at 09h 46m 33s.xml">
-      <configuration name="BuyGoods" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_dressseSiteProgect - 2020.02.27 at 09h 53m 56s.xml">
-      <configuration name="All in dressseSiteProgect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_dressseSiteProgect - 2020.02.27 at 09h 57m 30s.xml">
-      <configuration name="All in dressseSiteProgect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_dressseSiteProgect - 2020.02.27 at 10h 00m 39s.xml">
-      <configuration name="All in dressseSiteProgect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DressesPageTest - 2020.02.27 at 11h 25m 46s.xml">
+    <history-entry file="DressesPageTest - 2020.03.04 at 22h 39m 55s.xml">
       <configuration name="DressesPageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuyGoodsTest - 2020.02.27 at 11h 59m 06s.xml">
+    <history-entry file="BuyGoodsTest_buyGoodsTest - 2020.03.04 at 22h 43m 47s.xml">
+      <configuration name="BuyGoodsTest.buyGoodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DressesPageTest - 2020.03.04 at 22h 48m 09s.xml">
+      <configuration name="DressesPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuyGoodsTest - 2020.03.04 at 22h 48m 57s.xml">
       <configuration name="BuyGoodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuyGoodsTest - 2020.02.27 at 12h 00m 29s.xml">
+    <history-entry file="BuyGoodsTest - 2020.03.04 at 23h 10m 16s.xml">
       <configuration name="BuyGoodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DressAddTest - 2020.02.27 at 12h 24m 53s.xml">
-      <configuration name="DressAddTest" configurationId="JUnit" />
+    <history-entry file="BuyGoodsTest - 2020.03.04 at 23h 45m 52s.xml">
+      <configuration name="BuyGoodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuyGoodsTest - 2020.03.04 at 23h 49m 55s.xml">
+      <configuration name="BuyGoodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuyGoodsTest - 2020.03.05 at 11h 21m 21s.xml">
+      <configuration name="BuyGoodsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17181209" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17583893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,7 +453,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38243628" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3427762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,10 +507,27 @@
     <entry file="file://$PROJECT_DIR$/dressseSiteProgect.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DressAddTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DressesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.8.0/selenide-5.8.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1649">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProductPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -447,84 +536,165 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DressesPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="-43">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BuyGoodsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="164">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DressesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Fixture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProductPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        <state relative-caret-position="-68">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DressAddTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/junit-platform.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Fixture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dressseSiteProgect</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

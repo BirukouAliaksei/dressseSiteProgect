@@ -1,6 +1,4 @@
 import com.codeborne.selenide.Selenide;
-import org.openqa.selenium.support.FindBy;
-
 import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
 

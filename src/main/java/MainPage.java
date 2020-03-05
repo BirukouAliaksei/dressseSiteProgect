@@ -1,17 +1,35 @@
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import java.util.Random;
 
-import static com.codeborne.selenide.Selectors.byId;
-import static com.codeborne.selenide.Selectors.byXpath;
-import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.*;
+import static com.codeborne.selenide.Selenide.*;
 
 public class MainPage {
     public SelenideElement dressesBtn = $(byXpath("//*[@id='block_top_menu']/ul/li[2]/a"));
     public SelenideElement addToCard = $(byXpath("//*[@id='center_column']/ul/li[1]/div/div[2]/div[2]/a[1]/span"));
-    public SelenideElement hoverOnElement = $(byXpath("/html/body/div/div[2]/div/div[3]/div[2]/ul/li[1]/div/div[1]/div/a[1]/img"));
 
+    public static void hoverOnElement(WebElement element){
+        executeJavaScript(
+                "$(arguments[0]).addClass('hovered')",
+                element);
+    }
+
+    protected String getSaltString() {
+        String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        StringBuilder salt = new StringBuilder();
+        Random rnd = new Random();
+        while (salt.length() < 10) {
+            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
+            salt.append(SALTCHARS.charAt(index));
+        }
+        String saltStr = salt.toString();
+        return saltStr;
+    }
 
     public MainPage searchForm(String value){
         $(byId("search_query_top")).setValue(value).pressEnter();
@@ -38,10 +56,9 @@ public class MainPage {
     public MainPage addToCart(){
         $("#block_top_menu > ul > li:nth-child(2) > a").click();
         dressesBtn.click();
-        hoverOnElement.hover();
+        hoverOnElement($$(".product_list > li").find(text("Dress")));
         addToCard.click();
-        $(byXpath("//*[@title='Proceed to checkout']")).click();
-//        $(byId("summary_products_quantity")).shouldHave(Condition.text("1 Product"));
+        $(byText("Proceed to checkout")).click();
         return this;
     }
 
@@ -53,18 +70,6 @@ public class MainPage {
         $(byId("message")).setValue(message);
         $(byId("submitMessage")).click();
         return this;
-    }
-
-    protected String getSaltString() {
-        String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-        StringBuilder salt = new StringBuilder();
-        Random rnd = new Random();
-        while (salt.length() < 10) { // length of the random string.
-            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
-            salt.append(SALTCHARS.charAt(index));
-        }
-        String saltStr = salt.toString();
-        return saltStr;
     }
 
     public MainPage signOutBtn(){

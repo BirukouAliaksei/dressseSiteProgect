@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: DressAddTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.825 s - in DressAddTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.453 s - in DressAddTest

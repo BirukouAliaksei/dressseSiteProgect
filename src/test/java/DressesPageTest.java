@@ -1,7 +1,5 @@
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
-
-import jdk.jfr.Description;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -16,7 +14,6 @@ public class DressesPageTest extends Fixture{
     public void preCondition() {
         dressesPage = new DressesPage();
     }
-
 
     @Test
     public void chooseCasualDress() {

@@ -1,7 +1,7 @@
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -18,7 +18,7 @@ public class DressAddTest extends Fixture{
         productPage = new ProductPage();
     }
 
-    @Description(value = "Quantity change products In Cart")
+//    @Description(value = "Quantity change products In Cart")
     @Test
     public void testProductInCart(){
         mainPage.addToCart();
@@ -28,7 +28,7 @@ public class DressAddTest extends Fixture{
                 .shouldHave(Condition.text("1 Product"));
     }
 
-    @Description(value = "Create And Delete Product in Cart")
+//    @Description(value = "Create And Delete Product in Cart")
     @Test
     public void createAndDeleteProduct(){
         mainPage.addToCart();
