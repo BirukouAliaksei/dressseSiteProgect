@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import java.util.Random;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -64,6 +65,7 @@ public class MainPage {
 
     public MainPage contactUs(String email, String message){
         $(byXpath("//*[@title='Contact Us']")).click();
+        $(byXpath("//*[@class='navigation_page']")).shouldHave(text("Contact"));
         $(byId("id_contact")).click();
         $(byXpath("//*[@id='id_contact']/option[2]")).click(); // не нажимается
         $(byId("email")).setValue(email);
