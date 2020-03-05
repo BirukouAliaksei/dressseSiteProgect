@@ -1,4 +1,5 @@
 import com.codeborne.selenide.Condition;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -13,11 +14,11 @@ public class BuyGoodsTest extends Fixture{
     public void preCondition(){
         mainPage = new MainPage();
         productPage = new ProductPage();
+        mainPage.sighIn();
     }
 
     @Test
     public void buyGoodsTest(){
-        mainPage.sighIn();
         mainPage.addToCart();
         productPage.aderessField();
         productPage.selectShipping();
@@ -25,4 +26,10 @@ public class BuyGoodsTest extends Fixture{
         $(byXpath("//*[@class='cheque-indent']"))
                 .shouldHave(Condition.text("Your order on My Store is complete."));
     }
+
+    @AfterEach
+    public void afterCondition(){
+        mainPage.signOutBtn();
+    }
+
 }
