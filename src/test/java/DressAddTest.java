@@ -2,12 +2,16 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Description;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.parallel.Execution;
+import org.junit.jupiter.api.parallel.ExecutionMode;
 
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.$;
 
+@Execution(ExecutionMode.CONCURRENT)
 public class DressAddTest extends Fixture{
     MainPage mainPage;
     ProductPage productPage;
@@ -30,7 +34,7 @@ public class DressAddTest extends Fixture{
                 .shouldHave(Condition.text("1 Product"));
     }
 
-//    @Description(value = "Create And Delete Product in Cart")
+    @Description(value = "Create And Delete Product in Cart")
     @Test
     public void createAndDeleteProduct(){
         mainPage.addToCart();
@@ -38,5 +42,6 @@ public class DressAddTest extends Fixture{
         $(byXpath("//*[@class='alert alert-warning']"))
                 .shouldHave(Condition.text("Your shopping cart is empty."));
     }
+
 
 }

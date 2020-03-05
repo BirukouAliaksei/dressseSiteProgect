@@ -3,11 +3,14 @@ import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.parallel.Execution;
+import org.junit.jupiter.api.parallel.ExecutionMode;
 
 import static com.codeborne.selenide.Selectors.byId;
 import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
 
+@Execution(ExecutionMode.CONCURRENT)
 public class MainPageTest extends Fixture {
     MainPage mainPage;
 

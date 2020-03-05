@@ -2,10 +2,15 @@ import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.parallel.Execution;
+import org.junit.jupiter.api.parallel.ExecutionMode;
+import org.junit.jupiter.api.parallel.ResourceLock;
 
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.clearBrowserCookies;
 
+@Execution(ExecutionMode.CONCURRENT)
 public class BuyGoodsTest extends Fixture{
     MainPage mainPage;
     ProductPage productPage;
@@ -28,8 +33,9 @@ public class BuyGoodsTest extends Fixture{
     }
 
     @AfterEach
-    public void afterCondition(){
+    public void afterCondition() {
         mainPage.signOutBtn();
+        clearBrowserCookies();
     }
 
 }
